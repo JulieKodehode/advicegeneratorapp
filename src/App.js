@@ -1,5 +1,12 @@
+// Components
+import AdvanceGeneratorApp from "./AdviceGeneratorApp";
+
 const App = () => {
-	return <div></div>;
+	return (
+		<div>
+			<AdvanceGeneratorApp />
+		</div>
+	);
 };
 
 export default App;
