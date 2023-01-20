@@ -1,0 +1,16 @@
+/* ## Colors
+### Primary
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+### Neutral
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%) */
+
+:root {
+	--primary-lightCyan: hsl(193, 38%, 86%);
+	--primary-neonGreen: hsl(150, 100%, 66%);
+	--neutral-grayishBlue: hsl(217, 19%, 38%);
+	--neutral-darkGrayishBlue: hsl(217, 19%, 24%);
+	--neutral-darkBlue: hsl(218, 23%, 16%);
+}
