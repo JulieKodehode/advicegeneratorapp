@@ -3,9 +3,8 @@ import "./styles/styles.css";
 import "./styles/colors.css";
 import "./styles/typography.css";
 
-// Assets
-import MobileDivider from "./images/pattern-divider-mobile.svg";
-import DesktopDivider from "./images/pattern-divider-desktop.svg";
+// Components
+import Divider from "./components/Divider/Divider";
 
 const AdvanceGeneratorApp = () => {
 	return (
@@ -15,8 +14,7 @@ const AdvanceGeneratorApp = () => {
 				<p className="adviceText">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, consequuntur!
 				</p>
-				{/* <img className="desktopDivider" src={DesktopDivider} alt="page divider" /> */}
-				{/* <img className="mobileDivider" src={MobileDivider} alt="page divider" /> */}
+				<Divider />
 				<button className="nextAdvice"></button>
 			</div>
 		</main>

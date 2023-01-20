@@ -59,13 +59,7 @@ body {
 /* Mobile S(320), M(375px), L(425px)  */
 @media screen and (max-width: 426px) {
 	.adviceCard {
-		width: 80%;
-	}
-}
-
-/* Over Laptop(1024px) */
-@media screen and (min-width: 1025px) {
-	.adviceCard {
-		width: 80%;
+		/* Mobile divider is 295px */
+		min-width: 300px;
 	}
 }
