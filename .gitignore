@@ -11,6 +11,9 @@
 # production
 /build
 
+# frontend mentor
+/frontendmentor
+
 # misc
 .DS_Store
 .env.local
